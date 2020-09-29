@@ -1,0 +1,212 @@
+/* 以下リセットCSSです */
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/* ここまでリセットCSSです */
+
+
+header .logo {
+    display: inline-block;
+    height: 60px;
+}
+
+header .menu {
+    background-color: black;
+    height: 40px;
+    margin-top: 10px;
+    width: 100%
+}
+
+header .menu li {
+    color: white;
+    float: left;
+    line-height: 40px;
+    list-style: none;
+    padding-left: 30px;
+}
+
+header .menu a {
+    color: white;
+}
+
+main {
+    clear: left;
+}
+
+main .main-container {
+    margin: 20px auto;
+}
+
+main .left {
+    float: left;
+    margin-bottom: 40px;
+    width: 70%;
+}
+
+main .right {
+    float: right;
+    margin-top: 10px;
+    width: 30%;
+}
+
+main .title {
+    border-left: 4px solid black;
+    border-bottom: 4px solid gray;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+main .subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main form {
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    margin: 0px 5px;
+    margin-bottom: 20px;
+}
+
+main form .input {
+    padding: 10px;
+}
+
+main form .subtitle {
+    border-left: 4px solid red;
+    margin: 10px 10px 10px 15px;
+    padding: 5px 5px 5px 8px;
+}
+
+main form .label {
+    padding-bottom: 2px;
+}
+
+main .text,
+main textarea,
+main .dropdown {
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    color: #999;
+    padding: 5px;
+}
+
+main .submit {
+    background-color: #bfbfbf;
+    border: 1px solid lightgray;
+    border-bottom: solid 2px gray;
+    border-radius: 5px;
+    color: white;
+    margin: 5px 0px 20px 10px;
+    padding: 4px 10px;
+}
+
+main .article {
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    clear: both;
+    margin: 0px 5px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+main .article .subtitle {
+    border-bottom: 2px solid lightgray;
+    margin: 10px 0px 20px;
+    padding-bottom: 2px;
+    padding-left: 7px;
+}
+
+main .article .contents {
+    margin: 5xp;
+    padding-bottom: 10px;
+}
+
+main .article .handlename {
+    font-size: 12px;
+    margin: 5xp;
+    padding-bottom: 5px;
+}
+
+main .side-box {
+    margin-left: 40px;
+}
+
+main .side-content .subtitle {
+    border-bottom: 2px dotted lightgray;
+}
+
+main .side-content {
+    line-height: 2em;
+}
+
+main .side-content p {
+    margin-left: 16px;
+}
+
+main .side-content p:last-child {
+    margin-bottom: 10px;
+}
+
+main .side-content a {
+    color: black;
+}
+
+footer {
+    background-color: black;
+    clear: both;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+}
